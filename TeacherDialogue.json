@@ -1,0 +1,46 @@
+{
+  "Levels": [
+    {
+      "LevelID": 1,
+      "Dialogues": {
+        "OnHelpButton": [
+          "Need a hint? Try splitting that number into smaller pieces.",
+          "Think about which operator fits best here."
+        ],
+        "OnWrongAttempt": [
+          "Hmm, not quite. Maybe try combining the blocks differently?",
+          "Think again — could that operator be useful here?"
+        ],
+        "OnEquationProgress": [
+          "Nice! You’re getting closer.",
+          "That looks promising, keep going!"
+        ],
+        "OnLevelComplete": [
+          "Great job! You cracked the equation.",
+          "Perfect! On to the next challenge."
+        ]
+      }
+    },
+    {
+      "LevelID": 2,
+      "Dialogues": {
+        "OnHelpButton": [
+          "Break the problem into steps.",
+          "Check if you’re applying the right operator."
+        ],
+        "OnWrongAttempt": [
+          "Close, but not quite. Try adjusting the order.",
+          "Think: could this operator solve it?"
+        ],
+        "OnEquationProgress": [
+          "Yes, you’re almost done!",
+          "Keep pushing — it’s coming together!"
+        ],
+        "OnLevelComplete": [
+          "Excellent! Another level solved.",
+          "Nice work! Ready for the next challenge?"
+        ]
+      }
+    }
+  ]
+}
