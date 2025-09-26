@@ -1,0 +1,62 @@
+{
+  "Levels": [
+    {
+      "LevelID": 1,
+      "faqOptions": [
+        {
+          "id": "where_to_find_numbers",
+          "buttonText": "Where to find numbers?",
+          "userQuestion": "Where should I find the numbers in this puzzle?",
+          "botReply": "Look around the glowing blocks in the environment. They usually contain the numbers you need for solving the puzzle."
+        },
+        {
+          "id": "how_to_pickup",
+          "buttonText": "How to pick up?",
+          "userQuestion": "How do I pick up objects in the game?",
+          "botReply": "To pick up an object, move close to it and press the 'Pick Up' button at the bottom right corner of your screen."
+        },
+        {
+          "id": "stuck_on_step",
+          "buttonText": "I’m stuck on Step 1",
+          "userQuestion": "I am stuck on Step 1 of this puzzle. What should I do?",
+          "botReply": "For Step 1, try finding the two blocks with the same number. That’s your starting clue."
+        },
+        {
+          "id": "need_hint",
+          "buttonText": "Need a hint",
+          "userQuestion": "Can I get a hint for solving this puzzle?",
+          "botReply": "Sure! Focus on matching the smallest number block with its correct position first. That will make the puzzle easier."
+        },
+        {
+          "id": "explain_math",
+          "buttonText": "Explain the math",
+          "userQuestion": "Can you explain the math behind this puzzle?",
+          "botReply": "This puzzle is based on addition. You need to combine the numbers from different blocks so their total equals the target shown at the top."
+        }
+      ]
+    },
+    {
+      "LevelID": 2,
+      "faqOptions": [
+        {
+          "id": "operators_help",
+          "buttonText": "Which operator to use?",
+          "userQuestion": "I’m confused about which operator to use in this puzzle.",
+          "botReply": "Check the target number. If it’s bigger than the numbers available, try using addition or multiplication."
+        },
+        {
+          "id": "wrong_attempts",
+          "buttonText": "Why am I wrong?",
+          "userQuestion": "Why do I keep getting the equation wrong?",
+          "botReply": "Make sure you are following the correct order of operations (PEMDAS). Parentheses first!"
+        },
+        {
+          "id": "need_example",
+          "buttonText": "Show me an example",
+          "userQuestion": "Can you show me an example of how to solve this?",
+          "botReply": "For example: if the target is 12 and you have 3 and 4, you can use multiplication (3 × 4 = 12)."
+        }
+      ]
+    }
+  ]
+}
