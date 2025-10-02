@@ -40,8 +40,8 @@
           "Think again — could that operator be useful here?"
         ],
         "OnEquationProgress": [
-          "Nice! You’re getting closer.",
-          "That looks promising, keep going!"
+          "That looks promising, keep going!",
+          "Keep pushing — it’s coming together!"
         ],
         "OnLevelComplete": [
           "Great job! You cracked the equation.",
@@ -78,7 +78,7 @@
         ],
         "OnEquationProgress": [
           "Yes, you’re almost done!",
-          "Keep pushing — it’s coming together!"
+          "Nice! You’re getting closer."
         ],
         "OnLevelComplete": [
           "Excellent! Another level solved.",
