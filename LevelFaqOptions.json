@@ -40,8 +40,8 @@
           "Think again — could that operator be useful here?"
         ],
         "OnRightAttempt": [
-          "Nice move! That’s the correct step.",
-          "Yes! You picked the right block."
+          "Nice move! You chose the correct step.",
+          "Yes! That block was the right choice.",
         ],
         "OnEquationProgress": [
           "That looks promising, keep going!",
@@ -81,8 +81,8 @@
           "Think: could this operator solve it?"
         ],
         "OnRightAttempt": [
-          "Yes! That’s exactly the right operation.",
-          "Perfect choice — you’re on track."
+          "Perfect! That’s the right move to continue.",
+          "Awesome! You placed the right piece."
         ],
         "OnEquationProgress": [
           "Yes, you’re almost done!",
