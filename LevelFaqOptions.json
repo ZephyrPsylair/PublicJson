@@ -39,6 +39,10 @@
           "Hmm, not quite. Maybe try combining the blocks differently?",
           "Think again — could that operator be useful here?"
         ],
+        "OnRightAttempt": [
+          "Nice move! That’s the correct step.",
+          "Yes! You picked the right block."
+        ],
         "OnEquationProgress": [
           "That looks promising, keep going!",
           "Keep pushing — it’s coming together!"
@@ -75,6 +79,10 @@
         "OnWrongAttempt": [
           "Close, but not quite. Try adjusting the order.",
           "Think: could this operator solve it?"
+        ],
+        "OnRightAttempt": [
+          "Yes! That’s exactly the right operation.",
+          "Perfect choice — you’re on track."
         ],
         "OnEquationProgress": [
           "Yes, you’re almost done!",
