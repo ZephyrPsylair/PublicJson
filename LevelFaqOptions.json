@@ -6,31 +6,31 @@
         "OnHelpButton": [
           {
             "ID": "where_to_find_numbers",
-            "ButtonText": "Where to find numbers?",
+            "ButtonText": "Find numbers",
             "UserQuestion": "Where should I find the numbers in this puzzle?",
             "BotReply": "Look around the glowing blocks in the environment. They usually contain the numbers you need for solving the puzzle."
           },
           {
             "ID": "how_to_pickup",
-            "ButtonText": "How to pick up?",
+            "ButtonText": "How to pick?",
             "UserQuestion": "How do I pick up objects in the game?",
             "BotReply": "To pick up an object, move close to it and press the 'Pick Up' button at the bottom right corner of your screen."
           },
           {
             "ID": "stuck_on_step",
-            "ButtonText": "I’m stuck on Step 1",
+            "ButtonText": "Stuck on step 1",
             "UserQuestion": "I am stuck on Step 1 of this puzzle. What should I do?",
             "BotReply": "For Step 1, try finding the two blocks with the same number. That’s your starting clue."
           },
           {
             "ID": "need_hint",
-            "ButtonText": "Need a hint",
+            "ButtonText": "Need hint",
             "UserQuestion": "Can I get a hint for solving this puzzle?",
             "BotReply": "Sure! Focus on matching the smallest number block with its correct position first. That will make the puzzle easier."
           },
           {
             "ID": "explain_math",
-            "ButtonText": "Explain the math",
+            "ButtonText": "Show math",
             "UserQuestion": "Can you explain the math behind this puzzle?",
             "BotReply": "This puzzle is based on addition. You need to combine the numbers from different blocks so their total equals the target shown at the top."
           }
