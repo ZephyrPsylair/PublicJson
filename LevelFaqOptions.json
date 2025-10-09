@@ -41,7 +41,7 @@
         ],
         "OnRightAttempt": [
           "Nice move! You chose the correct step.",
-          "Yes! That block was the right choice.",
+          "Yes! That block was the right choice."
         ],
         "OnEquationProgress": [
           "That looks promising, keep going!",
@@ -56,43 +56,337 @@
     {
       "LevelID": 2,
       "Dialogues": {
-        "OnHelpButton": [
+       "OnHelpButton": [
           {
             "ID": "operators_help",
-            "ButtonText": "Which operator to use?",
+            "ButtonText": "Pick Operator",
             "UserQuestion": "I’m confused about which operator to use in this puzzle.",
-            "BotReply": "Check the target number. If it’s bigger than the numbers available, try using addition or multiplication."
+            "BotReply": "Check the target number. Multiplication can help reach bigger targets faster than addition."
           },
           {
             "ID": "wrong_attempts",
-            "ButtonText": "Why am I wrong?",
+            "ButtonText": "Wrong Choice",
             "UserQuestion": "Why do I keep getting the equation wrong?",
-            "BotReply": "Make sure you are following the correct order of operations (PEMDAS). Parentheses first!"
+            "BotReply": "Remember to pick the right operator. Multiplying the correct numbers is key here!"
           },
           {
             "ID": "need_example",
-            "ButtonText": "Show me an example",
+            "ButtonText": "Show Example",
             "UserQuestion": "Can you show me an example of how to solve this?",
-            "BotReply": "For example: if the target is 12 and you have 3 and 4, you can use multiplication (3 × 4 = 12)."
+            "BotReply": "For example: to reach 15, you can multiply 5 × 3. That’s your target!"
           }
         ],
         "OnWrongAttempt": [
-          "Close, but not quite. Try adjusting the order.",
-          "Think: could this operator solve it?"
+          "Not quite! Try multiplying different numbers together.",
+          "That combo doesn’t scale right — think multiplication, not addition."
         ],
         "OnRightAttempt": [
-          "Perfect! That’s the right move to continue.",
-          "Awesome! You placed the right piece."
+          "Boom! You nailed the multiplication.",
+          "Nice one! You picked the perfect pair to multiply."
         ],
         "OnEquationProgress": [
-          "Yes, you’re almost done!",
-          "Nice! You’re getting closer."
+          "That’s the right track — the product’s building up!",
+          "Good flow! Keep that multiplication chain going."
         ],
         "OnLevelComplete": [
-          "Excellent! Another level solved.",
-          "Nice work! Ready for the next challenge?"
+          "Perfect calculation! You multiplied your way through.",
+          "Clean finish! You’ve mastered this equation."
         ]
       }
-    }
+    },
+    {
+      "LevelID": 3,
+      "Dialogues": {
+        "OnHelpButton": [
+          {
+            "ID": "choose_operator",
+            "ButtonText": "Pick Operator",
+            "UserQuestion": "Which operator should I use to solve this puzzle?",
+            "BotReply": "Try using the divide operator to split the number correctly and reach the target."
+          },
+          {
+            "ID": "find_number",
+            "ButtonText": "Find Number",
+            "UserQuestion": "Where can I find the numbers to use?",
+            "BotReply": "Look at all the available blocks. The numbers you need are hidden among them."
+          },
+          {
+            "ID": "example_hint",
+            "ButtonText": "Example Help",
+            "UserQuestion": "Can you give me an example to solve this?",
+            "BotReply": "For instance, 100 ÷ 2 equals 50. Look for blocks that help you reach that result."
+          },
+          {
+            "ID": "wrong_operator",
+            "ButtonText": "Wrong Choice",
+            "UserQuestion": "Why isn’t my choice working?",
+            "BotReply": "Check if you are using the division operator. Multiplication won’t give the right answer here."
+          }
+        ],
+        "OnWrongAttempt": [
+          "Oops! That doesn’t split the number correctly.",
+          "Hmm, try dividing instead of multiplying.",
+          "Close, but you need to divide to reach the target."
+        ],
+        "OnRightAttempt": [
+          "Nice! You divided correctly.",
+          "Perfect! That’s the right split."
+        ],
+        "OnEquationProgress": [
+          "You’re halfway there — keep dividing carefully!",
+          "Good! The numbers are coming together."
+        ],
+        "OnLevelComplete": [
+          "Boom! Division done perfectly.",
+          "Awesome! You solved the puzzle with division."
+        ]
+      }
+    },
+    {
+      "LevelID": 4,
+      "Dialogues": {
+        "OnHelpButton": [
+          {
+            "ID": "pick_operator",
+            "ButtonText": "Pick Operator",
+            "UserQuestion": "Which operator should I use here?",
+            "BotReply": "Use the addition operator to combine numbers and reach the target."
+          },
+          {
+            "ID": "find_blocks",
+            "ButtonText": "Find Blocks",
+            "UserQuestion": "Where are the numbers for this puzzle?",
+            "BotReply": "Look at the available blocks. Some of them hold the numbers you need."
+          },
+          {
+            "ID": "need_hint",
+            "ButtonText": "Need Hint",
+            "UserQuestion": "I’m stuck. Can you help?",
+            "BotReply": "Start by combining smaller numbers first. Then add the rest to reach 82."
+          },
+          {
+            "ID": "example_help",
+            "ButtonText": "Example Help",
+            "UserQuestion": "Can you show me an example?",
+            "BotReply": "For instance: 59 + 23 equals 82. Try picking numbers that sum to the target."
+          }
+        ],
+        "OnWrongAttempt": [
+          "Not quite! Try adding numbers differently.",
+          "Hmm, think bigger — maybe combine other blocks.",
+          "Close, but you need to sum to the target."
+        ],
+        "OnRightAttempt": [
+          "Nice! That addition was perfect.",
+          "Exactly! You added the right numbers."
+        ],
+        "OnEquationProgress": [
+          "Good job! The sum is coming together.",
+          "Keep going — numbers are adding up nicely!"
+        ],
+        "OnLevelComplete": [
+          "Boom! Level complete with perfect addition.",
+          "Awesome! You solved the puzzle by adding correctly."
+        ]
+      }
+    },
+    {
+      "LevelID": 5,
+      "Dialogues": {
+        "OnHelpButton": [
+          {
+            "ID": "pick_operator",
+            "ButtonText": "Pick Operator",
+            "UserQuestion": "Which operator should I use here?",
+            "BotReply": "The addition operator isn’t available. Think carefully — maybe you can combine numbers differently."
+          },
+          {
+            "ID": "find_blocks",
+            "ButtonText": "Find Blocks",
+            "UserQuestion": "Where are the numbers for this puzzle?",
+            "BotReply": "Look at the blocks available. Even without the addition block, some numbers can help you reach the target."
+          },
+          {
+            "ID": "need_hint",
+            "ButtonText": "Need Hint",
+            "UserQuestion": "I’m stuck. Can you help?",
+            "BotReply": "Try using multiplication or division to adjust the numbers, then find a way to reach 5."
+          },
+          {
+            "ID": "example_help",
+            "ButtonText": "Example Help",
+            "UserQuestion": "Can you show me an example?",
+            "BotReply": "For instance: combine 2 and 3 using the blocks you have. Think creatively to reach the target."
+          }
+        ],
+        "OnWrongAttempt": [
+          "Hmm, that doesn’t work — maybe try a different approach.",
+          "Not quite! Consider using other operators cleverly.",
+          "Close, but you need to reach 5 without the addition block."
+        ],
+        "OnRightAttempt": [
+          "Nice! You figured it out creatively.",
+          "Exactly! That’s how you reach the target without addition."
+        ],
+        "OnEquationProgress": [
+          "Good job! You’re close to solving it.",
+          "Keep going — the numbers are aligning!"
+        ],
+        "OnLevelComplete": [
+          "Boom! Puzzle solved cleverly without addition.",
+          "Awesome! You completed the level using smart thinking."
+        ]
+      }
+    },
+    {
+      "LevelID": 6,
+      "Dialogues": {
+        "OnHelpButton": [
+          {
+            "ID": "pick_operator",
+            "ButtonText": "Pick Operator",
+            "UserQuestion": "Which operator should I use here?",
+            "BotReply": "Use the + block to combine numbers and reach the target of 135."
+          },
+          {
+            "ID": "find_blocks",
+            "ButtonText": "Find Blocks",
+            "UserQuestion": "Where can I find numbers for this puzzle?",
+            "BotReply": "Look at the available blocks. You’ll need to combine numbers wisely to hit 135."
+          },
+          {
+            "ID": "need_hint",
+            "ButtonText": "Need Hint",
+            "UserQuestion": "I’m stuck. Can you help?",
+            "BotReply": "Start by adding smaller numbers first, then use the + block to reach the target sum."
+          }
+        ],
+        "OnWrongAttempt": [
+          "Not quite! Try using the + block correctly.",
+          "Hmm, think bigger — combine numbers differently.",
+          "Close, but the sum isn’t right yet."
+        ],
+        "OnRightAttempt": [
+          "Nice! That addition was perfect.",
+          "Exactly! You added the right numbers to reach 135."
+        ],
+        "OnEquationProgress": [
+          "Good job! The sum is coming together.",
+          "Keep going — numbers are adding up nicely!"
+        ],
+        "OnLevelComplete": [
+          "Boom! Level complete with perfect addition.",
+          "Awesome! You solved the puzzle by adding correctly."
+        ]
+      }
+    },
+    {
+      "LevelID": 7,
+      "Dialogues": {
+        "OnHelpButton": [
+          {
+            "ID": "pick_operator",
+            "ButtonText": "Pick Operator",
+            "UserQuestion": "Which operator should I use here?",
+            "BotReply": "Check the target number carefully. Use subtraction, multiplication, or division as needed to reach it."
+          },
+          {
+            "ID": "find_blocks",
+            "ButtonText": "Find Blocks",
+            "UserQuestion": "Where can I find numbers for this puzzle?",
+            "BotReply": "Look at the blocks available. They will help you solve the puzzle step by step."
+          },
+          {
+            "ID": "need_hint",
+            "ButtonText": "Need Hint",
+            "UserQuestion": "I’m stuck. Can you help?",
+            "BotReply": "Focus on one calculation at a time and choose the operator that moves you closer to the target."
+          },
+          {
+            "ID": "example_help",
+            "ButtonText": "Example Help",
+            "UserQuestion": "Can you give an example?",
+            "BotReply": "Example: 124 − 43 = 81. Break down the next steps in smaller parts to reach the final target."
+          },
+          {
+            "ID": "operator_hint",
+            "ButtonText": "Operator Hint",
+            "UserQuestion": "I don’t know which operator to pick.",
+            "BotReply": "Check the target number and pick the operator that will bring your numbers closer to it."
+          }
+        ],
+        "OnWrongAttempt": [
+          "Not quite! Check your calculation carefully.",
+          "Hmm, maybe try a different operator.",
+          "Close, but the result doesn’t match the target.",
+          "Try breaking your steps into smaller parts."
+        ],
+        "OnRightAttempt": [
+          "Nice! That calculation is correct.",
+          "Perfect! You solved it accurately.",
+          "Exactly! Keep up the good work."
+        ],
+        "OnEquationProgress": [
+          "Good job! You’re making progress.",
+          "Keep going — numbers are aligning nicely!",
+          "Halfway there — check your steps carefully."
+        ],
+        "OnLevelComplete": [
+          "Boom! Puzzle solved perfectly.",
+          "Awesome! You completed the level successfully."
+        ]
+      }
+    },
+    {
+      "LevelID": 8,
+      "Dialogues": {
+        "OnHelpButton": [
+          {
+            "ID": "pick_operator",
+            "ButtonText": "Pick Operator",
+            "UserQuestion": "Which operator should I use here?",
+            "BotReply": "Check the target carefully. Use addition and multiplication to reach the correct result."
+          },
+          {
+            "ID": "find_blocks",
+            "ButtonText": "Find Blocks",
+            "UserQuestion": "Where can I find numbers for this puzzle?",
+            "BotReply": "Look at the blocks available. Combine them step by step to get closer to the target."
+          },
+          {
+            "ID": "need_hint",
+            "ButtonText": "Need Hint",
+            "UserQuestion": "I’m stuck. Can you help?",
+            "BotReply": "Focus on multiplying first, then adding the rest to reach the target number."
+          },
+          {
+            "ID": "example_help",
+            "ButtonText": "Example Help",
+            "UserQuestion": "Can you give an example?",
+            "BotReply": "Example: Multiply first, then add the number to reach the final target. Break it into smaller steps if needed."
+          }
+        ],
+        "OnWrongAttempt": [
+          "Not quite! Check your multiplication first.",
+          "Hmm, maybe try adding after multiplying.",
+          "Close, but the result doesn’t match the target.",
+          "Try breaking your steps into smaller calculations."
+        ],
+        "OnRightAttempt": [
+          "Nice! That calculation is perfect.",
+          "Exactly! You solved it correctly.",
+          "Awesome! The numbers add up perfectly."
+        ],
+        "OnEquationProgress": [
+          "Good job! The numbers are coming together.",
+          "Keep going — you’re on the right track.",
+          "Halfway there — check each step carefully."
+        ],
+        "OnLevelComplete": [
+          "Boom! Puzzle solved perfectly.",
+          "Fantastic! You completed the level successfully."
+        ]
+      }
+    }  
   ]
 }
